@@ -1018,14 +1018,16 @@ body:after {
     color: #888888; }
     .footer a:hover {
       color: #000; }
+
 .head-logo{
     width: 145px;
     
 }
+
 .invert {
-    -webkit-filter: invert(1);
-   filter: invert(1);
-    width: 100px;
+  -webkit-filter: invert(1);
+  filter: invert(1);
+  width: 100px;
 }
 .cover-logo{
     width:260px;

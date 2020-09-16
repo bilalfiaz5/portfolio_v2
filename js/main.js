@@ -233,31 +233,17 @@ jQuery(document).ready(function($) {
 
   		if (st > 100) {
   			$('.js-sticky-header').addClass('shrink');
+            $('.head-logo').addClass('invert');
   		} else {
   			$('.js-sticky-header').removeClass('shrink');
+            $('.head-logo').removeClass('invert');
   		}
 
   	}) 
 
   };
   siteScroll();
-   
-    var siteScroll1 = function() {
 
-$(window).scroll(function() {
-
-  		var logo = $(this).scrollTop();
-
-  		if (logo > 1) {
-  			$('.head-logo').addClass('invert');
-  		} else {
-  			$('.head-logo').removeClass('invert');
-  		}
-
-  	}) 
-
-  };
-  siteScroll1();
 
   var siteIstotope = function() {
   	/* activate jquery isotope */
